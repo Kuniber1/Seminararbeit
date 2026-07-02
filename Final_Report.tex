@@ -1,0 +1,95 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+%Template version as of 6/27/2024
+
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{quellen.bib}
+\begin{document}
+
+\title{Influence of Large Converter Based Loads on Oscillations in Transmission Grids\\}
+
+
+
+\author{\IEEEauthorblockN{Tobias Ruisinger}
+\IEEEauthorblockA{\textit{Electrical Engineering and Information Technology} \\
+\textit{Technical University of Munich}\\
+Munich, Germany \\
+tobias.ruisinger@tum.de}
+}
+
+\maketitle
+
+\begin{abstract}
+The power system of todays world is constantly changing. With the shift towards electricity generation from renewable sources such as wind- and sun-power, power-electronics based converters have more and more impact on the power grid. But not only the generation side of the power system is changing, also loads are evolving. On the consumption side, there is a rapid increase in loads that are connected to the grid using power electronic converters, some of them can reach a very high power. Converter-based loads have different characteristics than traditional loads, leading to new challenges when connecting them to the power grid. One big problem faced by grid operators and planners around the world, is the ability of large, converter-based loads to influence oscillation phenomena in different frequency ranges. This report will review what kind of converter-based loads there are in the transmission grid, their characteristics, how they can influence oscillations and strategies to assess and manage the risks coming from oscillations caused by converter-based large loads. \end{abstract}
+
+\begin{IEEEkeywords}
+converter-based large loads, power system oscillations, transmission grid dynamics
+\end{IEEEkeywords}
+
+\section{Introduction}
+The energy transition towards renewable generation and the growing electrification of demand has a great impact on the behaviour and dynamics of our power grid. Not only generation sources use power electronic converters to interface with the grid, converter-based loads (CBLs) are also emerging at a very fast rate. Connecting these loads to the transmission system poses several challenges and difficulties because of the inherently different behaviour of converter based loads compared to other large loads that have been studied for a long time and are generally well understood. Currently there is a lot of research in the direction of CBLs, with some organizations forming large load task forces, for example the North American Electric Reliability Corporation (NERC)\cite{nerc}, specifically focusing on the impact of CBLs on the power grid. Connecting CBLs to the grid introduces several risks to the grid. Those include aspects like frequency-, voltage- and rotor angle-stability or harmonics \cite{nerc}. Another risk that is drawing the attention of researchers and grid operators around the world is the ability of CBLs to influence oscillation phenomena in the power grid. Oscillations in power systems have been observed and studied for a long time. Uncontrolled oscillations can generally lead to unstable flows of energy, wich can potentially damage equipment, trip protection devices and lead to cascading outages\cite{esig}. The abiltiy of CBLs to influence oscillation phenomena already showed in a number of recent incidents.
+
+One example is the 14,7 Hz oscillation event in the Dominion Energy System of the North American power grid. The oscillation in the system voltage was observed after the ramp-down of four hydro-generation units in a region with a high concentration of large, converter-based loads, namely data centers. The oscillation lasted for a duration of 2 hours before it could be damped by adjusting the setpoint of a nearby STATCOM. After an investigation, the origin of the oscillation was identified to be the uninterrupted power supply of a data center.\cite{osc}
+
+In 2024, the Electric Reliability Council of Texas noticed power oscillations of a CBL with a magnitude of 50 MW and a frequency of 23 Hz, after the load exceeded a certain treshhold in power consumption. It was determined that this poses a reliabilty risk to the grid because load oscillations in this frequency range could potentially damage nearby synchronous generators and the load had to reduce its consumption to a level where no oscillations were noticable. In this case, the cause of the oscillations was determined to be old software on equipment in the load.\cite{esig}\\
+
+These recent incidents show that the ability of CBLs to influence oscillation phenomena in different frequency ranges poses real risks to the power grid. To better understand the causes and risks coming from CBL-influenced oscillation phenomena, this report will answer the following five questions:
+
+\begin{enumerate}
+    \item What kinds of converter-based large loads are becoming relevant in transmission grids?
+    \item How do converter-based large loads behave differently from classical loads during disturbances?
+    \item Under which grid and operating conditions can these loads contribute to oscillation problems?
+    \item Which oscillation phenomena are most likely to be influenced by converter-based large loads?
+    \item How should grid planners and operators assess and manage oscillation risks associated with converter-based large loads?
+\end{enumerate}
+
+
+\section{Kinds of converter-based large loads in the transmission grid}
+\subsection{Industries with a high amount of variable frequency drives}
+A variable frequency drive (VFD) is a power electronic device that converts AC power from the grid to AC power with a variable frequency to drive electric machines with a variable speed. In todays automated industry, VFDs are used for many different applications. In industries like mining and water treatment, VFDs drive large induction motors that power for example conveyor belts. The motors can reach a power of several megawatts and are therefore often fed by medium voltage converters. A plant that uses a lot of these medium voltage drives can easily reach a total load of several tens of megawatts and therefore has a significant impact on the power grid.
+
+\subsection{Electrifed railway}
+Electrified passenger- and freight-trains are an environmentally friendly way of transporting people and goods. In europe, 60\,\% of the rail network is already electrified, with 80\,\% of rail traffic running on these lines\cite{rail}. A converter in an electric train converts the AC power from the overhead line above the train track and converts it to AC with variable frequency, similar to the VFDs used in industry. Modern electric trains, for example the german high-speed train ICE can reach a power of up to 11,5 MW\cite{ice}. 
+
+\subsection{Electric vehicle charging hubs}
+The electrification of cars and other road vehicles is growing at a very high speed. This comes with the need for a reliable and fast charging infrastructure. In an EV-charging hub up to hundreds of high power EV chargers are concentrated in one place. DC charging is typically used for the fast charging of electric vehicles. This means that the AC power from the grid is converted to DC power in the charging station and gets then transferred to battery of the vehicle. The power of a DC-fast-charging station typically reaches up to 350 kW, with charging power increasing in the future. The biggest EV charging hub in the world consists of 258 fast chargers with a combined load of 93 MW\cite{evcharger}.
+
+\subsection{Hydrogen electrolyzers}
+Green hydrogen plays an important role in the decarbonization of energy intensive industries like the chemical or steel industry and therefore has the potential to help the transition into a climate-neutral future. Green hydrogen is produced by water electrolysis, using renewable energy sources. The german grid development plan forecasts the load of hydrogen electrolyzers connected to the grid to be between 31\,GW and 70\,GW by the year 2045\cite{nep}. In an electrolysis plant, AC power from the grid is converted into DC power that can be used for water electrolysis using mostly thyristor-based rectififers. In the future, elecgtrolysis plants could reach a load of up to several hundreds of megawatts.
+
+\subsection{Data centers}
+With the growing digitalisation of our world, there is an increasing need for digital infrastructure and computing power in the form of data centers. The emergence of artificial intelligence further amplifies this demand, while being even more energy intensive than traditional data centers. Germany is already the largest location for data centers in europe with 2000 data centers and a combined load of 2,7\,GW in 2024. This load is expected to increase to over 10\,GW by the year of 2045\cite{standrechenzentren}. The power of the largest AI-data centers already reaches more than 1\,GW, with facilities with a load of multiple gigawatts being planned and constructed in the future. Converter based loads of this scale have not yet been seen before and pose significant challenges when connecting them to our power grid.
+
+\section{Behaviour of converter-based loads compared to classical loads}
+
+
+
+
+
+\section{Grid and operating conditions linked to oscillation problems}
+
+\section{Oscillation phenomena influenced by converter-based large loads}
+
+\section{Assessing and managing risks of oscillations}
+
+\section{Conclusion}
+
+
+
+\section*{References}
+
+\printbibliography
+
+
+
+\end{document}

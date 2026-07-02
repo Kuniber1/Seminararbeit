@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nerc}{report}{}{}
+      \list{institution}{1}{%
+        {North American Electric Reliability Corporation}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{Characteristics and Risks of Emerging Large Loads}
+      \field{type}{NERC Whitepaper}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+    \entry{esig}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10b410ca8b8ce49a458ba271ecd2434f}{%
+           family={{Energy Systems Integration Group}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{fullhash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{fullhashraw}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{bibnamehash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{authorbibnamehash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{authornamehash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{authorfullhash}{10b410ca8b8ce49a458ba271ecd2434f}
+      \strng{authorfullhashraw}{10b410ca8b8ce49a458ba271ecd2434f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Large Load Disturbance Events}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esig.energy/reports-briefs/large-load-disturbance-events/
+      \endverb
+      \verb{url}
+      \verb https://www.esig.energy/reports-briefs/large-load-disturbance-events/
+      \endverb
+    \endentry
+    \entry{osc}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=026b3d9c140b6a2e47783d79be7cb928}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Chetan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5eaccbad866e09adc2a72588890a3a89}{%
+           family={Vanfretti},
+           familyi={V\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=61d7343387613c25be9e59769c872221}{%
+           family={Delaree},
+           familyi={D\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3faa2166dbe0573f2b07d3efe1a7441f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d55eb2efde4a9adeebdf015601913e2}
+      \strng{fullhash}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \strng{fullhashraw}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \strng{bibnamehash}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \strng{authorbibnamehash}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \strng{authornamehash}{6d55eb2efde4a9adeebdf015601913e2}
+      \strng{authorfullhash}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \strng{authorfullhashraw}{2f46cefea40c28cf7c82a76b3a6bc323}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As Dominion Energy's power grid has grown to include an increasing number of inverter-based resources and power electronic components, we have begun to observe an increase in previously unforeseen and difficult-to-explain dynamic behaviors. In this paper, we present a measurement-based analysis of 14.7–14.8 Hz oscillations emerging from a data center in Dominion Energy's power grid. Synchrophasor data collected over several months were analyzed using non-parametric spectral analysis approaches to understand its inception and, more importantly, to characterize its behavior. What makes this case unique is the presence of an independent and unplanned exogenous excitation in the system. This excitation plays a critical role in understanding the inception and emergence of an otherwise unobservable dynamic process that, as it destabilizes, results in oscillations at a higher and narrow frequency range than that of conventional power system dynamics.}
+      \field{journaltitle}{Sustainable Energy, Grids and Networks}
+      \field{title}{Understanding the inception of 14.7 Hz oscillations emerging from a data center}
+      \field{year}{2025}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.segan.2025.101735
+      \endverb
+      \keyw{Forced oscillations,Load dynamics,Spectral analysis}
+    \endentry
+    \entry{rail}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhashraw}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhashraw}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{7}
+      \field{title}{Electrification of rail infrastructure}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://alternative-fuels-observatory.ec.europa.eu/transport-mode/rail
+      \endverb
+      \verb{url}
+      \verb https://alternative-fuels-observatory.ec.europa.eu/transport-mode/rail
+      \endverb
+    \endentry
+    \entry{ice}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=74993f42c49b81f3a77103bcbb247c2b}{%
+           family={Siemens},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{fullhash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{fullhashraw}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{bibnamehash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{authorbibnamehash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{authornamehash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{authorfullhash}{74993f42c49b81f3a77103bcbb247c2b}
+      \strng{authorfullhashraw}{74993f42c49b81f3a77103bcbb247c2b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{7}
+      \field{title}{{ICE 4, der Hochgeschwindigkeitszug für die Deutsche Bahn}}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mobility.siemens.com/global/de/portfolio/fahrzeuge/hochgeschwindigkeit-intercity/ice-4.html
+      \endverb
+      \verb{url}
+      \verb https://www.mobility.siemens.com/global/de/portfolio/fahrzeuge/hochgeschwindigkeit-intercity/ice-4.html
+      \endverb
+    \endentry
+    \entry{evcharger}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d252c63f3d44ec55c8760e511a441d00}{%
+           family={eleport},
+           familyi={e\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3d6db33f505580e8eff1b4891497f2d6}{%
+           family={Juurikas},
+           familyi={J\bibinitperiod},
+           given={Jaan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{fullhash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{fullhashraw}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{bibnamehash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{authorbibnamehash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{authornamehash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{authorfullhash}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{authorfullhashraw}{d252c63f3d44ec55c8760e511a441d00}
+      \strng{editorbibnamehash}{3d6db33f505580e8eff1b4891497f2d6}
+      \strng{editornamehash}{3d6db33f505580e8eff1b4891497f2d6}
+      \strng{editorfullhash}{3d6db33f505580e8eff1b4891497f2d6}
+      \strng{editorfullhashraw}{3d6db33f505580e8eff1b4891497f2d6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Largest EV Charging Hubs In the World}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eleport.com/largest-ev-charging-hubs-in-the-world/
+      \endverb
+      \verb{url}
+      \verb https://eleport.com/largest-ev-charging-hubs-in-the-world/
+      \endverb
+    \endentry
+    \entry{nep}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ea082ca5e04bac97369e23b2511d461}{%
+           family={{German Transmission Sytem Operators}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{fullhash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{fullhashraw}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{bibnamehash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{authorbibnamehash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{authornamehash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{authorfullhash}{7ea082ca5e04bac97369e23b2511d461}
+      \strng{authorfullhashraw}{7ea082ca5e04bac97369e23b2511d461}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{5}
+      \field{title}{Netzentwicklungsplan {S}trom 2037 mit {A}usblick 2045,{V}ersion 2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.netzentwicklungsplan.de/sites/default/files/2026-03/NEP_2037_2045_V2025_2_Entwurf_0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.netzentwicklungsplan.de/sites/default/files/2026-03/NEP_2037_2045_V2025_2_Entwurf_0.pdf
+      \endverb
+    \endentry
+    \entry{standrechenzentren}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f030c129bb7c7702f21cafa51e6cdd3}{%
+           family={{Bundesministerium für Wirtschaft und Klimaschutz}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{fullhash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{fullhashraw}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{bibnamehash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{authorbibnamehash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{authornamehash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{authorfullhash}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \strng{authorfullhashraw}{6f030c129bb7c7702f21cafa51e6cdd3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{1}
+      \field{title}{{S}tand und {E}ntwicklung des {R}echenzentrumsstandorts {D}eutschland}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Technologie/stand-und-entwicklung-des-rechenzentrumsstandorts-deutschland.pdf?__blob=publicationFile&v=10
+      \endverb
+      \verb{url}
+      \verb https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Technologie/stand-und-entwicklung-des-rechenzentrumsstandorts-deutschland.pdf?__blob=publicationFile&v=10
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
