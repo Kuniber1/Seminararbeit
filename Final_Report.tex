@@ -7,8 +7,10 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{subcaption}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
@@ -71,12 +73,95 @@ Green hydrogen plays an important role in the decarbonization of energy intensiv
 With the growing digitalisation of our world, there is an increasing need for digital infrastructure and computing power in the form of data centers. The emergence of artificial intelligence further amplifies this demand, while being even more energy intensive than traditional data centers. Germany is already the largest location for data centers in europe with 2000 data centers and a combined load of 2,7\,GW in 2024. This load is expected to increase to over 10\,GW by the year of 2045\cite{standrechenzentren}. The power of the largest AI-data centers already reaches more than 1\,GW, with facilities with a load of multiple gigawatts being planned and constructed in the future. Converter based loads of this scale have not yet been seen before and pose significant challenges when connecting them to our power grid.
 
 \section{Behaviour of converter-based loads compared to classical loads}
-jallo
+The difficulties coming with the connection of CBLs to the power grid come from their naturally different behaviour compared to conventional loads. Conventional loads like induction motors have a stabilizing effect when a voltage or frequency disturbance occurs in the grid. This means that they reduce their active power draw if there is a drop in volatage or frequency. This property is called the self regulating effect and it has a stabilizing effect on the disturbance in the grid.\cite{induction} Induction motors also provide mechanical inertia due to the kinetic energy stored in the machines rotating mass, helping to limit the rate of change of frequency (RoCoF) during a disturbance. In Figure \ref{induction}, the frequency dependence of an induction motor is shown.
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{bilder/inductionmotorcut.pdf}
+  \caption{Frequency dependence of induction motor \cite{induction}}
+  \label{induction}
+\end{figure}
 
+Other conventional loads like resistive loads or loads that draw a constant current can generally be described with a load model such as the ZIP-model. The ZIP model describes the dependence of the load on the voltage. It consists of a constant impedance part with a quadratic dependence on voltage, a constant current part with a linear dependence and a constant power part independent to the voltage of the system.\cite{zip}
+\begin{equation}
+    P = P_0 \cdot \left[ Z_p \cdot \left(\frac{U}{U_N}\right)^2 + I_p \cdot \left(\frac{U}{U_N}\right)^1 + P_p \cdot \left(\frac{U}{U_N}\right) \right]
+    \label{eq:zip}
+\end{equation}
+While most conventional loads can be described by such a load model, CBLs have characteristics that make representing them by a conventional load model difficult or inaccurate. One reason for this is the constant power characteristic of CBLs. In the event of a disturbance such as a voltage sag, this means that the load increases its current draw to compensate for the lower voltage. This results in the voltage sag being amplified by the load now drawing more current. This negative incremental impedance of CBLs has a destabilizing effect on the grid because neagative damping is introduced to the system across all frequency ranges.\cite{issues} Figure \ref{constp} shows the I-V-curve of a constant power load and the definition of the incremental impedance. Many CBLs like data centers or hydrogen electrolyzers are very sensitive to voltage deviations and may disconnect if the system voltage is too high or low. To avoid dangerous over-voltage and over-frequency caused by the diconnection of large loads, grid operators put fault-ride-through requirements on large load facilities\cite{recomm}.
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{bilder/constp.png}
+  \caption{I-V curve of a constant power load \cite{constpower} }
+  \label{constp}
+\end{figure}
+CBLs also do not provide any inertia to the grid to limit frequency excursions. An induction motor fed by a variable frequency drive has a rotating mass just like an induction motor that is directly connected to the grid, but there is no electromechanical coupling between rotation of the machine and the grid frequency, as they are decoupled through the DC-link of the converter. 
+
+Another characteristic that makes describing CBLs by static load models difficult are the fast dynamic interactions of power electronic converters. Modern semiconductor switches used in converters operate with a high switching frequency, introducing high frequency harmonics into the power grid. The converters are controlled by multiple fast control loops with different bandwidths. This along with the naturally non-linear behaviour of power electronic converters makes them very diffcult to compare to the conventional loads and load models.
 
 \section{Grid and operating conditions linked to oscillation problems}
+To understand how CBLs can influence oscillation phenomena, it is important to understand what kind of grid and operating conditions are benficial for the forming of oscillations.
+
+\subsection{Weak grid conditions}
+The strenght of a power grid is generally described by its short circuit ratio (SCR). The simplest definition of the SCR is the ratio of the short circuit apparent power to the power of a load at a certain point of interconnection:
+
+\begin{equation}
+    SCR = \frac{S_{SC}}{P_{Load}}
+\end{equation}
+
+A low short circuit ratio corresponds to a low short circuit current in the system. The short circuit current is mostly influenced by the grid impedance and the generators in the system. The impedance of the grid increases when it is weakly interconnected or features very long transmission lines reaching into remote areas. Synchronous generators also play an important part contributing to the short circuit ratio, as they can deliver short circuit currents multiple times higher than their rated current. Converter-based generators provide no substantial short circuit current, because the short circuit current is restricted by device limitiations of semmiconductor switches. This leads to weak grid conditions in regions with a high penetration of power electronic converters. \cite{weakgrid}
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bilder/strong.png}
+        \caption{Example of a strong grid}
+        \label{fig:bild1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bilder/weak.png}
+        \caption{Example of a weak grid}
+        \label{fig:bild2}
+    \end{minipage}
+\end{figure}
+
+Weak grid conditions, which are described by a SCR lower than 3, generally indicate a high sensitivity of the voltage to changes in active and reactive power changes. This leads to reduced voltage stability of the system.\cite{weakgrid} There is also an increasing risk of oscillations arising from interaction between controllers of different converters\cite{challenges}. Like this, CBLs can contribute to oscillation problems in areas with weak grid conditions. If large loads are also geographically concentrated, for example electolyzer facilities in northern germany, it can amplify the described problem.
+
+\subsection{High penetration of power electronic converters}
+A high penetration of power electronic converters in a system not only influences the SCR,
+\subsection{High loading conditions of the grid}
+
+\subsection{Load fluctuations in AI data centers}
+Data centers for artificial intelligence applications experience periodic fluctuations in active power consumption. In parallel computing tasks, such as the training of AI-models, large amounts of graphical processing units get activated and deactivated in a synchronous way. The swings in power demand may be as a high as high as from 10\,\% to 100\,\% of load in a very short time frame.\cite{riskstobulkpower}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bilder/loadprofile.png}
+        \subcaption{Load profile example over 2 minute period}
+        \label{profile}
+    \end{subfigure}
+    
+    \vspace{0.3cm}
+    
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bilder/loadprofilezoom.png}
+        \subcaption{Load profile example over 5 second period}
+        \label{profilezoom}
+    \end{subfigure}
+    
+    \caption{Example of an AI training load profile \cite{nerc}}
+    \label{profil}
+\end{figure}
+As it can be seen in figure \ref{profil}, the load variations seen in AI training can be bi-periodic\cite{riskstobulkpower}. There are variations in power with lower frequency and a high amplitude and variations with a higher frequency but a lower amplitude. These so-called forced oscillations can excite existing oscillation modes in a system and cause oscillation problems\cite{nerc}.
+
+
+
+
 
 \section{Oscillation phenomena influenced by converter-based large loads}
 
