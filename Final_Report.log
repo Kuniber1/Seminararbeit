@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.5)  4 JUL 2026 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.5)  5 JUL 2026 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,33 +650,34 @@ Package pdftex.def Info: bilder/weak.png  used on input line 124.
 <bilder/loadprofile.png, id=66, 456.95718pt x 180.675pt>
 File: bilder/loadprofile.png Graphic file (type png)
 <use bilder/loadprofile.png>
-Package pdftex.def Info: bilder/loadprofile.png  used on input line 143.
+Package pdftex.def Info: bilder/loadprofile.png  used on input line 145.
 (pdftex.def)             Requested size: 252.0pt x 99.6362pt.
 <bilder/loadprofilezoom.png, id=67, 435.12563pt x 180.675pt>
 File: bilder/loadprofilezoom.png Graphic file (type png)
 <use bilder/loadprofilezoom.png>
-Package pdftex.def Info: bilder/loadprofilezoom.png  used on input line 152.
+Package pdftex.def Info: bilder/loadprofilezoom.png  used on input line 154.
 (pdftex.def)             Requested size: 252.0pt x 104.63994pt.
 
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 177--177
+
+[4 <./bilder/loadprofile.png> <./bilder/loadprofilezoom.png>]
+Underfull \hbox (badness 4927) in paragraph at lines 188--188
 []\OT1/ptm/m/n/10 German Trans-mis-sion Sytem Op-er-a-tors. ``Net-zen-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 177--177
+Underfull \hbox (badness 2065) in paragraph at lines 188--188
 \OT1/ptm/m/n/10 sion 2025. ''[On-line]. Avail-able: $https : / / www .
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 177--177
+Underfull \hbox (badness 1742) in paragraph at lines 188--188
 \OT1/ptm/m/n/10 bundeswirtschaftsministerium . de / Redaktion / DE /
  []
 
 
 
-[4 <./bilder/loadprofile.png> <./bilder/loadprofilezoom.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -690,11 +691,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[5
-
-] (Final_Report.aux)
+[5] (Final_Report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
@@ -704,15 +701,15 @@ Package logreq Info: Writing requests to 'Final_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13935 strings out of 469941
- 261946 string characters out of 5469431
- 1077034 words of memory out of 5000000
- 40612 multiletter control sequences out of 15000+600000
+ 13939 strings out of 469941
+ 262075 string characters out of 5469431
+ 1073077 words of memory out of 5000000
+ 40616 multiletter control sequences out of 15000+600000
  658969 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,9n,77p,1669b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (5 pages, 396929 bytes).
+Output written on Final_Report.pdf (5 pages, 398979 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

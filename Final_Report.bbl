@@ -554,6 +554,29 @@
       \verb https://www.mdpi.com/2078-1547/16/1/12
       \endverb
     \endentry
+    \entry{ptd}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9eb81505e1216338c73ccb3f52fe1933}{%
+           family={{TUM Chair of Power Transmission and Distribution}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{fullhash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{fullhashraw}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{bibnamehash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{authorbibnamehash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{authornamehash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{authorfullhash}{9eb81505e1216338c73ccb3f52fe1933}
+      \strng{authorfullhashraw}{9eb81505e1216338c73ccb3f52fe1933}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Power Transmission and Distribution Lecture Script}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
     \entry{riskstobulkpower}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=aa0059839a353f3d1b417bec6dbfd774}{%

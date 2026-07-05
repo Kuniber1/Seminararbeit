@@ -130,11 +130,13 @@ A low short circuit ratio corresponds to a low short circuit current in the syst
 Weak grid conditions, which are described by a SCR lower than 3, generally indicate a high sensitivity of the voltage to changes in active and reactive power changes. This leads to reduced voltage stability of the system.\cite{weakgrid} There is also an increasing risk of oscillations arising from interaction between controllers of different converters\cite{challenges}. Like this, CBLs can contribute to oscillation problems in areas with weak grid conditions. If large loads are also geographically concentrated, for example electolyzer facilities in northern germany, it can amplify the described problem.
 
 \subsection{High penetration of power electronic converters}
-A high penetration of power electronic converters in a system not only influences the SCR,
+A high penetration of power electronic converters in a grid not only influences the SCR. A lack of synchronous generators in a system leads to a lack of mechanical inertia, which is important for frequency stability. With low mechanical inertia avaiable, frequency excursions get larger and the RoCoF is faster, potentially leading to sympathetic tripping of other inverter-based-resources (IBR) and cascading grid outages. This happens when the RoCoF causes the phase-locked-loop, which grid-following inverters use to track the phase angle of the voltage, fails. Additionally, control loop interactions between different converters can cause oscillatory behaviour.\cite{challenges}
+
 \subsection{High loading conditions of the grid}
+When a power grid experiences  high loading conditions, it operates more closely to its stability margins. Under high loading, the angle difference in a synchronous generator is increased. Under those condtions the synchronizing torque in the generator is lower, which leads to reduced damping and a higher risk of oscillations occuring.\cite{ptd}
 
 \subsection{Load fluctuations in AI data centers}
-Data centers for artificial intelligence applications experience periodic fluctuations in active power consumption. In parallel computing tasks, such as the training of AI-models, large amounts of graphical processing units get activated and deactivated in a synchronous way. The swings in power demand may be as a high as high as from 10\,\% to 100\,\% of load in a very short time frame.\cite{riskstobulkpower}
+Data centers for artificial intelligence applications experience periodic fluctuations in active power consumption. In parallel computing tasks, such as the training of AI-models, large amounts of graphical processing units get activated and deactivated in a synchronous way. The swings in power demand may be as a high as high as from 10\,\% to 100\,\% of the load in a very short time frame.\cite{riskstobulkpower}
 
 \begin{figure}[h]
     \centering
@@ -160,10 +162,19 @@ Data centers for artificial intelligence applications experience periodic fluctu
 As it can be seen in figure \ref{profil}, the load variations seen in AI training can be bi-periodic\cite{riskstobulkpower}. There are variations in power with lower frequency and a high amplitude and variations with a higher frequency but a lower amplitude. These so-called forced oscillations can excite existing oscillation modes in a system and cause oscillation problems\cite{nerc}.
 
 
-
-
-
 \section{Oscillation phenomena influenced by converter-based large loads}
+
+
+\subsection{Electromechanical Oscillations}
+Electromechanical oscillations are a widely known phenomena in electrical power systems. The frequency of these oscillations typically lies in the range of 0,1 Hz to 2 Hz. If a synchronous generator rotating with a constant speed is subjected to a small disturbance, it experiences a synchronizing torque that accelerates or deccelerates the rotating mass of the generator. During this acceleration and decceleration active power is exchanged between the generator and other generators in the system in an oscillating way. A system of multiple generators and transmission lines can be described with a spring-mass system analogy: the generators are represented with masses and the transmission lines by the springs. If a mass now experiences a disturbance like an external force, the system starts oscillating. The frequencies at wich the system is oscillating are called modes. Modes between closely coupled generators in smaller areas are called local modes, modes between generators that are geographically far apart and coupled with long transmission lines are called global modes. If the modes are not damped sufficiently, dangerous power oscillations can happen that lead to overloaded transmission lines or the loss of synchronism in generators.\cite{ptd}
+
+Large loads with periodic variations in power consumption can excite the local- or inter-area-modes of a system. As discussed in chapter 2 A, data centers can have biperidodic variations in their power consumption. The lower frequency variations are in a frequency range relevant for electromechanical phenomena and could lead to excitation of oscillation modes.
+
+\subsection{Subsynchronous oscillations}
+
+\subsection{Voltage oscillations}
+
+\subsection{Wideband oscillations}
 
 \section{Assessing and managing risks of oscillations}
 
