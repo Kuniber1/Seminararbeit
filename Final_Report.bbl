@@ -630,6 +630,179 @@
       \endverb
       \keyw{Loading;Modeling;Data centers;Oscillators;Frequency;Printing;Generators;Load modeling;Protection;Planning;large electric load;data center;forced oscillation;reliability}
     \endentry
+    \entry{kundur}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=39882366f85507fce005c512ac3b2240}{%
+           family={Kundur},
+           familyi={K\bibinitperiod},
+           given={Prabha},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{39882366f85507fce005c512ac3b2240}
+      \strng{fullhash}{39882366f85507fce005c512ac3b2240}
+      \strng{fullhashraw}{39882366f85507fce005c512ac3b2240}
+      \strng{bibnamehash}{39882366f85507fce005c512ac3b2240}
+      \strng{authorbibnamehash}{39882366f85507fce005c512ac3b2240}
+      \strng{authornamehash}{39882366f85507fce005c512ac3b2240}
+      \strng{authorfullhash}{39882366f85507fce005c512ac3b2240}
+      \strng{authorfullhashraw}{39882366f85507fce005c512ac3b2240}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Power System Stability and Control}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pnnl}{report}{}{}
+      \name{author}{6}{}{%
+        {{hash=1d89b27da0247f269ef38e821eb11eaa}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Kaustav},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9b901f884d74ba9d3a6c5707180cf9ca}{%
+           family={Follum},
+           familyi={F\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=667507a48c36145f3740d5276ec6b1b8}{%
+           family={Varghese},
+           familyi={V\bibinitperiod},
+           given={Antos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa0059839a353f3d1b417bec6dbfd774}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Shuchismita},
+           giveni={S\bibinitperiod}}}%
+        {{hash=16bad16c20e9526ae2bfd535b3b01b96}{%
+           family={Farantatos},
+           familyi={F\bibinitperiod},
+           given={Evangelos},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3cd58d79a8c7a988278e4d5d4c5cd55e}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Pacific Northwest National Laboratory}%
+      }
+      \strng{namehash}{eb7996640282279668e71e4d38f06344}
+      \strng{fullhash}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \strng{fullhashraw}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \strng{bibnamehash}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \strng{authorbibnamehash}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \strng{authornamehash}{eb7996640282279668e71e4d38f06344}
+      \strng{authorfullhash}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \strng{authorfullhashraw}{11bb3eb5ad7ab790bd5a41616b495ae4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Measurement Adequacy for Monitoring Data Center Oscillations}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{emt}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=e099687cfe0188ce98f70d7e6abc0a0d}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Brett\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9b901f884d74ba9d3a6c5707180cf9ca}{%
+           family={Follum},
+           familyi={F\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Pacific Northwest National Laboratory}%
+      }
+      \strng{namehash}{8fac4e20791218365505df11194d52f2}
+      \strng{fullhash}{8fac4e20791218365505df11194d52f2}
+      \strng{fullhashraw}{8fac4e20791218365505df11194d52f2}
+      \strng{bibnamehash}{8fac4e20791218365505df11194d52f2}
+      \strng{authorbibnamehash}{8fac4e20791218365505df11194d52f2}
+      \strng{authornamehash}{8fac4e20791218365505df11194d52f2}
+      \strng{authorfullhash}{8fac4e20791218365505df11194d52f2}
+      \strng{authorfullhashraw}{8fac4e20791218365505df11194d52f2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies}
+      \field{year}{2025}
+      \field{dateera}{ce}
+    \endentry
+    \entry{wideband}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=046842e5933d7131df18c28d8bce94ff}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f3d79eaa5e218ee4eb4931b0dea3d01e}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Xiaorong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e582a2dc8fa19dbdcd38700f68b531cd}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jingbo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1eed631dd35845a607a45dd35d948203}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e4def8ee889f9357f444be252e4df524}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Dechao},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4638ee051f56765a9f3b9260d12fbe84}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Ningning},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f6e8ef60e7861f74a658032bfe8d526}
+      \strng{fullhash}{37bc46b6c823a3224e5175e2b43112b2}
+      \strng{fullhashraw}{37bc46b6c823a3224e5175e2b43112b2}
+      \strng{bibnamehash}{37bc46b6c823a3224e5175e2b43112b2}
+      \strng{authorbibnamehash}{37bc46b6c823a3224e5175e2b43112b2}
+      \strng{authornamehash}{8f6e8ef60e7861f74a658032bfe8d526}
+      \strng{authorfullhash}{37bc46b6c823a3224e5175e2b43112b2}
+      \strng{authorfullhashraw}{37bc46b6c823a3224e5175e2b43112b2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1364-0321}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{Wideband oscillation monitoring in power systems with high-penetration of renewable energy sources and power electronics: A review}
+      \field{volume}{175}
+      \field{year}{2023}
+      \field{pages}{113148}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.rser.2023.113148
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032123000047
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032123000047
+      \endverb
+      \keyw{Renewable energy sources,Power electronics,Wideband oscillation monitoring,Wideband phasor measurement unit,Waveform measurement unit,Applications of wideband measurement data}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

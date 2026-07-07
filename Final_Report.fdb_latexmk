@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Final_Report"] 1783254927.84912 "Final_Report.bcf" "Final_Report.bbl" "Final_Report" 1783276745.67981 0
-  "Final_Report.bcf" 1783276745 109557 41db648b7f03c104d540ab241da6ea8a "pdflatex"
-  "quellen.bib" 1783247197 13850 f9f2fb504dc9eb9f61bc1e5c7be44389 ""
+["biber Final_Report"] 1783437035.97327 "Final_Report.bcf" "Final_Report.bbl" "Final_Report" 1783438517.8204 0
+  "Final_Report.bcf" 1783438517 109926 3cf2a77e2aee47b68ad5e53aa76d101f "pdflatex"
+  "quellen.bib" 1783359688 14102 2c35c84efca546f031c32d991093b8c3 ""
   (generated)
   "Final_Report.bbl"
   "Final_Report.blg"
   (rewritten before read)
-["pdflatex"] 1783276743.81029 "c:/Users/tobia/Desktop/Seminararbeit/Final Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1783276745.68067 0
+["pdflatex"] 1783438516.14642 "c:/Users/tobia/Desktop/Seminararbeit/Final Report/Final_Report.tex" "Final_Report.pdf" "Final_Report" 1783438517.82127 0
   "C:/Users/tobia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1782985137 94727 cb671d9f02b13b4f7ba41aa058ed080a ""
   "C:/Users/tobia/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746454437 13157640 3e2d54737bd3c50be7313037e49ff9c2 ""
   "C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -97,17 +97,17 @@
   "C:/Users/tobia/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/tobia/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tobia/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Final_Report.aux" 1783276745 6959 73c8f13f7af65b98100adcb2c5396d47 "pdflatex"
-  "Final_Report.bbl" 1783254936 29616 b3e83e5a1ccf975215d92143346370e2 "biber Final_Report"
-  "Final_Report.run.xml" 1783276745 2455 5c15e3719b2a2b99fc0edb64e2acf9ac "pdflatex"
-  "Final_Report.tex" 1783276740 20489 3f042ed5f7752e27cfff5443eef4263a ""
+  "Final_Report.aux" 1783438517 7838 b498740e2eb942cf5f9a099c9879bb38 "pdflatex"
+  "Final_Report.bbl" 1783437038 36965 69804c940e0f19ae2438c3f96b96dbee "biber Final_Report"
+  "Final_Report.run.xml" 1783438517 2455 5c15e3719b2a2b99fc0edb64e2acf9ac "pdflatex"
+  "Final_Report.tex" 1783438515 23051 28610c0603da6c0e4aec2e0fddcca22d ""
   "bilder/constp.png" 1782993639 62856 72530c629a2aebd6349da0c7895e084e ""
   "bilder/inductionmotorcut.pdf" 1782985173 51126 2269d05ed8f4e157d4c83600868e4681 ""
   "bilder/loadprofile.png" 1783171500 86897 b99f9d170794518e32299a8ee2064590 ""
   "bilder/loadprofilezoom.png" 1783171510 44240 4cfae9ba3afd60295d9e774190d77ed3 ""
   "bilder/strong.png" 1783167558 21401 e2d3485c56c20c2c5412772aa8831c27 ""
   "bilder/weak.png" 1783167570 13432 d4b8fe01841b2c227fb9c5172de03257 ""
-  "c:/Users/tobia/Desktop/Seminararbeit/Final Report/Final_Report.tex" 1783276740 20489 3f042ed5f7752e27cfff5443eef4263a ""
+  "c:/Users/tobia/Desktop/Seminararbeit/Final Report/Final_Report.tex" 1783438515 23051 28610c0603da6c0e4aec2e0fddcca22d ""
   (generated)
   "Final_Report.aux"
   "Final_Report.bcf"

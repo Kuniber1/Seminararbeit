@@ -168,15 +168,26 @@ As it can be seen in figure \ref{profil}, the load variations seen in AI trainin
 \subsection{Electromechanical Oscillations}
 Electromechanical oscillations are a widely known phenomena in electrical power systems. The frequency of these oscillations typically lies in the range of 0,1 Hz to 2 Hz. If a synchronous generator rotating with a constant speed is subjected to a small disturbance, it experiences a synchronizing torque that accelerates or deccelerates the rotating mass of the generator. During this acceleration and decceleration active power is exchanged between the generator and other generators in the system in an oscillating way. A system of multiple generators and transmission lines can be described with a spring-mass system analogy: the generators are represented with masses and the transmission lines by the springs. If a mass now experiences a disturbance like an external force, the system starts oscillating. The frequencies at wich the system is oscillating are called modes. Modes between closely coupled generators in smaller areas are called local modes, modes between generators that are geographically far apart and coupled with long transmission lines are called global modes. If the modes are not damped sufficiently, dangerous power oscillations can happen that lead to overloaded transmission lines or the loss of synchronism in generators.\cite{ptd}
 
-Large loads with periodic variations in power consumption can excite the local- or inter-area-modes of a system. As discussed in chapter 2 A, data centers can have biperidodic variations in their power consumption. The lower frequency variations are in a frequency range relevant for electromechanical phenomena and could lead to excitation of oscillation modes.
+Large loads with periodic variations in power consumption can excite the local- or inter-area-modes of a system. As discussed in chapter 4 D, data centers can have biperidodic variations in their power consumption. The lower frequency variations are in a frequency range relevant for electromechanical phenomena and could lead to excitation of oscillation modes.
 
 \subsection{Subsynchronous oscillations}
+The rotor of a turbine-generator system consists of several sections with different masses. A system like this has multiple torsional modes that can be excited by electrical disturbances at the output of the generator. If those modes get excited, torsional oscillations result between the different sections of the rotor, creating a torsional force on the rotor shaft.\cite{kundur}The forces produced on the rotor shaft can lead to material fatigue or failure. This phenomenom is called subsynchronous torsional interaction (SSTI). The high frequency load variations in data converters discussed in section 4 D lie in a frequency range relevant for SSTI, potentially producing torque oscillations dangerous for the shaft of generators that are located close to the large load\cite{recomm}.
+
+Another oscillation phenomena in the subsynchronous frequency range is the subsynchronous control interaction (SSCI). The control system of a large load could interact with the controllers of other nearby converters, such as HVDC converters or renewable generation. SSCI involve also interactions of converters with series compensated transmission lines, creating points of resonance.\cite{recomm} \cite{pnnl}
 
 \subsection{Voltage oscillations}
+As it was discussed in chapter 4 A, weak grid conditons lead to a high sensitivity of the voltage to changes in active power. Like this, load variations in data centers could cause fluctuations in the voltage. This may cause noticable flickering of nearby electric lighting.\cite{emt}
 
 \subsection{Wideband oscillations}
+Wideband oscillations include every oscillation phenomena up to a frequency range of up to several kHz, thus including oscillations caused by converter harmonics. Wideband oscillation phenomena are mostly observed and studied in power systems with a high penetration of renewable generation.\cite{wideband} There is no evidence of wideband oscillations linked to CBLs yet, but being converter-based systems, they also inject harmonics into the grid that could lead to resonances and oscillations in higher frequencies.
 
 \section{Assessing and managing risks of oscillations}
+It has become clear that oscillation phenomena influenced by converter-based large loads can be a big risk to reliability and stability of the power system. Grid operators will have to assess and manage the risks coming from large load induced oscillations to safely connect them to the power grid. Dynamic simulations and general requirements for CBLs can help to limit the risks coming from oscillations and will be discussed in the following chapter.
+\subsection{Dynamic simulations}
+
+\subsection{General requirements for large, converter-based loads}
+
+
 
 \section{Conclusion}
 
