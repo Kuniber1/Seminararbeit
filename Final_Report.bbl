@@ -407,6 +407,7 @@
       \strng{authornamehash}{3db1b3913f35d569186d0fdf69e8d5c1}
       \strng{authorfullhash}{3db1b3913f35d569186d0fdf69e8d5c1}
       \strng{authorfullhashraw}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -802,6 +803,64 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1364032123000047
       \endverb
       \keyw{Renewable energy sources,Power electronics,Wideband oscillation monitoring,Wideband phasor measurement unit,Waveform measurement unit,Applications of wideband measurement data}
+    \endentry
+    \entry{modeling}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=3db1b3913f35d569186d0fdf69e8d5c1}{%
+           family={{ESIG Large Load Task Force}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Energy Systems Integration Group}%
+      }
+      \strng{namehash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{fullhash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{fullhashraw}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{bibnamehash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{authorbibnamehash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{authornamehash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{authorfullhash}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \strng{authorfullhashraw}{3db1b3913f35d569186d0fdf69e8d5c1}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Large Load Modeling for Dynamic Studies: Current Practices and Recommendations}
+      \field{year}{2026}
+      \field{dateera}{ce}
+    \endentry
+    \entry{rmsenergy}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=7164a37e74bfcecf19745d335e8dd6d8}{%
+           family={Salehi},
+           familyi={S\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{fullhash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{fullhashraw}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{bibnamehash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{authorbibnamehash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{authornamehash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{authorfullhash}{7164a37e74bfcecf19745d335e8dd6d8}
+      \strng{authorfullhashraw}{7164a37e74bfcecf19745d335e8dd6d8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Reliability and Stability of Large IBRs and Large-Load Sites}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esig.energy/attachment/serve/rms-energy-esig_presentation
+      \endverb
+      \verb{url}
+      \verb https://www.esig.energy/attachment/serve/rms-energy-esig_presentation
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

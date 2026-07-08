@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.5)  7 JUL 2026 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.5)  8 JUL 2026 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,23 +664,27 @@ Package pdftex.def Info: bilder/loadprofilezoom.png  used on input line 154.
 [4 <./bilder/loadprofile.png> <./bilder/loadprofilezoom.png>]
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 199--199
+
+[5]
+Underfull \hbox (badness 4927) in paragraph at lines 210--210
 []\OT1/ptm/m/n/10 German Trans-mis-sion Sytem Op-er-a-tors. ``Net-zen-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 199--199
+Underfull \hbox (badness 2065) in paragraph at lines 210--210
 \OT1/ptm/m/n/10 sion 2025. ''[On-line]. Avail-able: $https : / / www .
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 199--199
+Underfull \hbox (badness 1742) in paragraph at lines 210--210
 \OT1/ptm/m/n/10 bundeswirtschaftsministerium . de / Redaktion / DE /
  []
 
 
 
-[5]
+
+
+[6]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -696,7 +700,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6
+[7
 
 ] (Final_Report.aux)
  ***********
@@ -708,17 +712,17 @@ Package logreq Info: Writing requests to 'Final_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13957 strings out of 469941
- 262794 string characters out of 5469431
- 1080267 words of memory out of 5000000
- 40634 multiletter control sequences out of 15000+600000
+ 13963 strings out of 469941
+ 263055 string characters out of 5469431
+ 1081375 words of memory out of 5000000
+ 40640 multiletter control sequences out of 15000+600000
  658969 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,9n,77p,1669b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,9n,77p,1669b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tobia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final_Report.pdf (6 pages, 402239 bytes).
+Output written on Final_Report.pdf (7 pages, 407010 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
